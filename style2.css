@@ -1,0 +1,437 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 0px;
+}
+.parent1 {
+  display: flex;
+  gap: 50px;
+  padding-left: 30px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+  padding-right: 20px;
+  flex-direction: row;
+}
+
+.stick {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+/* ul{
+    list-style: none;
+    height: 100%;
+    display: flex;
+ }  
+ 
+ #hamburger-icon{
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+ }
+
+ #hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+ }
+  */
+
+#schedule {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  height: fit-content;
+  width: 110px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.email {
+  display: flex;
+  gap: 10px;
+}
+.emailicon {
+  padding-top: 12px;
+  gap: 10px;
+}
+
+.location {
+  display: flex;
+  gap: 0px;
+}
+
+.addicon {
+  padding-top: 7px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  gap: 20px;
+  padding-right: 20px;
+}
+.villahead {
+  padding-left: 25px;
+}
+#home {
+  color: red;
+}
+
+#bgimg {
+  width: 100%;
+  height: 70%;
+  position: relative;
+}
+.textoverimg {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-size: large;
+
+  /* transform: translate(-50%, -50%); */
+  color: white;
+}
+#toronto {
+  background-color: white;
+  width: 130px;
+  height: 25px;
+  color: black;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.hurry {
+  font-size: 25px;
+}
+
+.parent2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-right: 20px;
+  margin-left: 0px;
+  gap: 20px;
+}
+.pic {
+  padding-left: 50px;
+}
+
+.usefulink {
+  background-color: rgba(248, 243, 243, 0.959);
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-top: 1px;
+  height: 280px;
+}
+.featured {
+  height: 400px;
+  flex-direction: column;
+}
+.details {
+  height: 510px;
+  width: 220px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.infoimg {
+  display: flex;
+  gap: 20px;
+}
+.im {
+  padding-top: 30px;
+}
+
+#ogpic {
+  /* position: absolute; */
+  width:"350px";
+          height:"300px";
+}
+
+.imgfeatured {
+  background-color: rgb(255, 106, 6);
+
+  margin-left: 0px;
+  margin-top: 20px;
+  width: 50px;
+  border-radius: 99px;
+  position: relative;
+  bottom: 100px;
+  left: 40px;
+  width: 60px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+/* Hide the checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Hide the menu by default */
+.hidmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+
+
+
+.villa1{
+  margin-left: 30px;
+  width:400px ;
+  padding-top: 0px;
+
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2) ;
+  border-radius: 10px;
+}
+
+
+.addupload{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#uploadicon{
+  padding-top: 12px;
+}
+
+.locplace{
+  display: flex;
+  padding-left: 10px;
+  gap: 10px;
+}
+
+#locationicon{
+  padding-top: 10px;
+}
+
+.pg3{
+  padding-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+#models{
+  text-align: center;
+}
+
+#vill1img{
+  width:400px;
+  height: 300px;
+}
+
+
+.villa1_2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.villa3_4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for mobile view */
+@media only screen and (max-width: 867px) {
+  .hidmenu {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    left: 0;
+    background-color: #f4dada;
+    gap: 20px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Show the menu when checkbox is checked */
+  #menu-toggle:checked + .hidmenu {
+    display: block;
+  }
+
+  /* Style the hamburger menu icon */
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    padding-top: 20px;
+    font-size: 24px;
+    line-height: 1;
+    margin: 10px;
+  }
+
+  /* Style the menu items */
+  .hidmenu li {
+    margin-right: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .parent1 {
+    flex-direction: column;
+    gap: 0.5px;
+  }
+  .parent2 {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .details {
+    margin-left: 30px;
+    margin-top: 20px;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+    
+    
+  }
+  .featured {
+    margin-left: 30px;
+    text-align: center;
+  }
+  .imgfeatured {
+    visibility: hidden;
+  }
+
+  #toronto {
+    width: 30px;
+    height: 5px;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    font-size: 5px;
+  }
+
+  .hurry {
+    font-size: 10px;
+  }
+
+  .stick {
+    width: 100%;
+  }
+
+  .info {
+    flex-direction: column;
+    
+  }
+
+  .social {
+    margin-left: 30px;
+  }
+
+  #ogpic{
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 250px;
+  
+  
+  }
+
+  .pg3{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-right: 20px;
+    align-items: center;
+    
+    
+  }
+
+  .villa1{
+    width: 270px;
+    height: 370px;
+
+  }
+
+  #vill1img{
+    width: 270px;
+    height: 250px;
+  }
+
+  .villa1_2{
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .villa3_4{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+/* @media only screen and (max-width: 600px) {
+  .menu {
+    display: none;
+
+  }
+.textoverimg {
+    font-size: medium;
+}
+
+.parent2{
+    flex-direction: column;
+}
+
+.details{
+    margin-left: 30px;
+}
+.featured{
+   
+    
+    margin-left: 30px;
+}
+.imgfeatured{
+     visibility: hidden;
+     
+}
+
+}
+
+@media only screen and (max-width:767px){
+    
+} */
