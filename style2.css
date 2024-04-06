@@ -28,27 +28,6 @@ body {
   z-index: 100;
 }
 
-/* ul{
-    list-style: none;
-    height: 100%;
-    display: flex;
- }  
- 
- #hamburger-icon{
-    margin: auto 0;
-    display: none;
-    cursor: pointer;
- }
-
- #hamburger-icon div {
-    width: 35px;
-    height: 3px;
-    background-color: white;
-    margin: 6px 0;
-    transition: 0.4s;
- }
-  */
-
 #schedule {
   background-color: black;
   color: white;
@@ -103,7 +82,6 @@ body {
   left: 20%;
   font-size: large;
 
-  /* transform: translate(-50%, -50%); */
   color: white;
 }
 #toronto {
@@ -160,7 +138,7 @@ body {
 }
 
 #ogpic {
-  /* position: absolute; */
+ 
   width:"350px";
           height:"300px";
 }
@@ -180,10 +158,7 @@ body {
   padding-top: 10px;
 }
 
-/* Hide the checkbox */
-#menu-toggle {
-  display: none;
-}
+
 
 /* Hide the menu by default */
 .hidmenu {
@@ -196,10 +171,6 @@ body {
 .menu-icon {
   display: none;
 }
-
-
-
-
 
 .villa1{
   margin-left: 30px;
@@ -262,50 +233,27 @@ body {
   gap: 10px;
 }
 
-
-
-
-
-
-
-
-
+.hamburger{
+  display: none;
+}
 
 
 /* Media query for mobile view */
 @media only screen and (max-width: 867px) {
-  .hidmenu {
-    position: absolute;
-    top: 50px; /* Adjust as needed */
-    left: 0;
-    background-color: #f4dada;
-    gap: 20px;
-    padding: 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  }
-
-  /* Show the menu when checkbox is checked */
-  #menu-toggle:checked + .hidmenu {
+  .hamburger{
     display: block;
-  }
-
-  /* Style the hamburger menu icon */
-  .menu-icon {
-    display: block;
-    cursor: pointer;
-    padding-top: 20px;
-    font-size: 24px;
-    line-height: 1;
-    margin: 10px;
-  }
-
-  /* Style the menu items */
-  .hidmenu li {
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
     margin-right: 20px;
   }
 
-  .menu {
+  .menu {    
     display: none;
+  }
+
+  .menustyle{
+    display: block;
   }
 
   .parent1 {
@@ -403,35 +351,3 @@ body {
 }
 
 
-
-/* @media only screen and (max-width: 600px) {
-  .menu {
-    display: none;
-
-  }
-.textoverimg {
-    font-size: medium;
-}
-
-.parent2{
-    flex-direction: column;
-}
-
-.details{
-    margin-left: 30px;
-}
-.featured{
-   
-    
-    margin-left: 30px;
-}
-.imgfeatured{
-     visibility: hidden;
-     
-}
-
-}
-
-@media only screen and (max-width:767px){
-    
-} */
