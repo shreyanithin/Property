@@ -21,6 +21,10 @@ body {
   flex-direction: row;
 }
 
+.menu :hover{
+  color: red;
+}
+
 .stick {
   position: sticky;
   top: 0;
@@ -160,7 +164,7 @@ body {
 
 
 
-/* Hide the menu by default */
+/* Hide the menu by default
 .hidmenu {
   list-style-type: none;
   margin: 0;
@@ -170,7 +174,7 @@ body {
 
 .menu-icon {
   display: none;
-}
+} */
 
 .villa1{
   margin-left: 30px;
@@ -203,20 +207,35 @@ body {
   padding-top: 10px;
 }
 
+.video{
+  text-align: center;
+ 
+}
+
+
 .pg3{
   padding-right: 0px;
   margin-left: 0px;
   padding-left: 0px;
 }
 
+.grid{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+
 #models{
   text-align: center;
 }
 
 #vill1img{
-  width:400px;
+  width:370px;
   height: 300px;
 }
+
 
 
 .villa1_2{
@@ -244,17 +263,22 @@ body {
     display: block;
     width: 20px;
     height: 20px;
-    padding-top: 30px;
-    margin-right: 20px;
+    padding-right: 25px;
+    padding-top: 30px; 
+    
   }
-
+  .headham{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .menu {    
     display: none;
   }
 
-  .menustyle{
+  /* .menustyle{
     display: block;
-  }
+  } */
 
   .parent1 {
     flex-direction: column;
@@ -327,8 +351,15 @@ body {
     
   }
 
+  .grid{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+
+
   .villa1{
-    width: 270px;
+    width: 200px;
     height: 370px;
 
   }
@@ -338,16 +369,7 @@ body {
     height: 250px;
   }
 
-  .villa1_2{
-    display: flex;
-    flex-direction: column;
 
-  }
-  
-  .villa3_4{
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 
