@@ -65,7 +65,7 @@ body {
   justify-content: space-between;
 }
 .social {
-  gap: 20px;
+  gap: 10px;
   padding-right: 20px;
 }
 .villahead {
@@ -144,7 +144,7 @@ body {
 #ogpic {
  
   width:"350px";
-          height:"300px";
+   height:"300px";
 }
 
 .imgfeatured {
@@ -161,20 +161,6 @@ body {
   padding-left: 15px;
   padding-top: 10px;
 }
-
-
-
-/* Hide the menu by default
-.hidmenu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: none;
-}
-
-.menu-icon {
-  display: none;
-} */
 
 .villa1{
   margin-left: 30px;
@@ -224,6 +210,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+
 }
 
 
@@ -232,25 +219,10 @@ body {
 }
 
 #vill1img{
-  width:370px;
-  height: 300px;
+  width:280px;
+  height: 260px;
 }
 
-
-
-.villa1_2{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 10px;
-}
-
-.villa3_4{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 10px;
-}
 
 .hamburger{
   display: none;
@@ -289,6 +261,15 @@ body {
     gap: 50px;
   }
 
+
+  .textoverimg {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: large;
+  
+    color: white;
+  }
   .details {
     margin-left: 30px;
     margin-top: 20px;
@@ -341,6 +322,10 @@ body {
   
   }
 
+  #vid{
+    width: 310px;
+  }
+
   .pg3{
     display: flex;
     flex-direction: column;
@@ -355,6 +340,9 @@ body {
   margin: 20px;
   display: grid;
   grid-template-columns: 1fr;
+  margin-left: auto;
+   margin-right: auto;
+  
   }
 
 
