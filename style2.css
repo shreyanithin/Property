@@ -85,7 +85,6 @@ body {
   top: 40%;
   left: 20%;
   font-size: large;
-
   color: white;
 }
 #toronto {
@@ -209,7 +208,7 @@ body {
   margin: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 20px;
 
 }
 
@@ -227,6 +226,77 @@ body {
 .hamburger{
   display: none;
 }
+
+.proplist{
+  background-color: rgb(247, 247, 240);
+  padding-top: 20px;
+  border-radius: 10px;
+  
+}
+
+.exceptimg{
+  padding-left: 20px;
+}
+
+#propimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  width:280px;
+  height: 260px;
+}
+
+.typeprice{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.bedbath{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.area{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+#proptype{
+  background-color: rgb(244, 192, 173);
+  width: 95px;
+  padding-left: 8px;
+  border-radius: 5px;
+}
+
+#propprice{
+  color: red;
+}
+
+#visit{
+  background-color: black;
+  color: white;
+  width: 115px;
+  padding-left: 15px;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
 
 
 /* Media query for mobile view */
@@ -247,10 +317,6 @@ body {
   .menu {    
     display: none;
   }
-
-  /* .menustyle{
-    display: block;
-  } */
 
   .parent1 {
     flex-direction: column;
